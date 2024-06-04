@@ -1,0 +1,175 @@
+.modal__name__wrapper {
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 0px;
+    gap: 10px;
+    background: #2D3748;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.modal__name {
+    width: 123px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.import__setting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 0px;
+}
+
+.import__setting__title {
+    width: 120px;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 18px;
+    margin-right: 43px;
+}
+
+.import__setting__option__wrapper {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.import__setting__option {
+    display: flex;
+}
+
+.import__setting__option__title {
+    flex: 5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E1F20;
+}
+
+.import__setting__option__option {
+    flex: 5;
+}
+
+.import__setting__option__option__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 10px;
+    width: 82px;
+    height: 24px;
+    background: #2D3748;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.import__setting__option__option__button__text {
+    width: 42px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.import__setting__option__option__button input[type='file'] {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.import__setting__option__option__dropdown {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 10px;
+    margin: 15px 0;
+    width: 500px;
+    height: 31px;
+}
+
+.bottom__cancel {
+    width: 48px;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #E74A3B;
+    cursor: pointer;
+}
+
+.bottom__import {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 25px;
+    gap: 10px;
+    width: 96px;
+    height: 31px;
+    background: #2D3748;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bottom__import__text {
+    width: 46px;
+    height: 17px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}

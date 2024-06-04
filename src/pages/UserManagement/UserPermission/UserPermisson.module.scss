@@ -1,0 +1,20 @@
+@use "../../../styles/" as *;
+
+.wrapper-all {
+    font-family: $font-family-inter;
+
+    .title {
+        @include flex(center, unset, unset);
+        height: 60px;
+        line-height: 29px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        font-size: 24px;
+        letter-spacing: 0.2em;
+        color: $default-color;
+        border-bottom: 1px solid $default-color;
+
+    }
+}

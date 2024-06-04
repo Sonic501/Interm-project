@@ -1,0 +1,105 @@
+@use "../../../styles/" as *;
+
+.wrapper-all {
+    font-family: $font-family-inter;
+
+    .title {
+        @include flex(center, unset, unset);
+        height: 60px;
+        line-height: 29px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-weight: 500;
+        font-size: 24px;
+        letter-spacing: 0.2em;
+        color: $default-color;
+        border-bottom: 1px solid $default-color;
+    }
+
+    .wrapper {
+        @include flex(center, space-between, unset);
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+
+        .left-content {
+            @include flex(center, unset, unset);
+
+            .search-input {
+                position: relative;
+
+                svg {
+                    top: 9px;
+                    left: 10px;
+                    position: absolute;
+                }
+
+                .input-search {
+                    padding-left: 44px;
+                    height: 35px;
+                    border: 1px solid $black;
+                    border-radius: $border-radius;
+
+                    &::placeholder {
+                        color: $black;
+                        font-style: italic;
+                    }
+                }
+            }
+
+
+            .filter-button {
+                margin-left: 5px;
+
+                svg {
+                    cursor: pointer;
+
+                }
+            }
+
+
+        }
+
+        .right-content {
+            @include flex(center, unset, unset);
+
+            .import-button {
+                svg {
+                    cursor: pointer;
+
+                }
+            }
+
+            .add-new-button {
+                margin-left: 5px;
+
+                svg {
+                    cursor: pointer;
+
+                }
+            }
+        }
+
+    }
+
+    .title-search-list {
+        margin-top: 10px;
+        margin-left: 30px;
+        gap: 8px;
+        display: flex;
+
+        .title-search {
+            font-style: italic;
+            color: white;
+            background-color: #474747;
+            width: fit-content;
+            padding: 7px 15px;
+            border-radius: 10px;
+        }
+    }
+
+    .usertable {
+        margin-top: 1rem;
+    }
+
+}

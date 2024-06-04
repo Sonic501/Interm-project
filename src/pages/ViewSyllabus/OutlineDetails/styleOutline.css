@@ -1,0 +1,17 @@
+.outline-wrapper .css-i4bv87-MuiSvgIcon-root{
+  transform: rotate(90deg);
+  color: #285d9a;
+}
+
+.outline-wrapper .css-yw020d-MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+  transform: rotate(-90deg) !important;
+}
+
+.custom-tooltip {
+  --tooltip-color: #ffffff !important;
+  --tooltip-text-color: black !important;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 0 !important;
+}

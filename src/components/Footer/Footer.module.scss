@@ -1,0 +1,15 @@
+@use "../../styles/" as *;
+
+.wrapper {
+  @include flex(center, center, unset);
+  width: 100%;
+  height: $header-footer-height;
+  padding: $gap;
+  background-color: $default-color;
+
+  .content {
+    color: $white;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}

@@ -1,0 +1,51 @@
+@use "../../../styles/" as *;
+
+
+.header {
+    @include flex(center, right, unset);
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+}
+
+.header-wrap-icon {
+    position: relative;
+
+
+    .sort-icon {
+        padding-left: 5px;
+        padding-top: 5px;
+        position: absolute;
+        cursor: pointer;
+    }
+
+}
+
+
+
+.footer {
+    @include flex(center, right, unset);
+    gap: 20px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-right: 20px;
+
+    .f-cancel {
+        color: #E74A3B;
+        text-decoration: underline;
+    }
+
+    .f-save {
+        padding: 7px 25px;
+        color: $white;
+        background-color: $default-color;
+        border-radius: 10px;
+    }
+
+}
+
+
+.MuiSelect-select .MuiSelect-outlined .MuiInputBase-input .MuiOutlinedInput-input .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    display: flex !important;
+}

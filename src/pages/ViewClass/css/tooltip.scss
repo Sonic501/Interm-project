@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap");
+
+.css-b62m3t-container {
+    position: relative;
+    box-sizing: border-box;
+    width: 400px !important;
+}
+
+.MuiInputBase-root {
+    width: 390px;
+}
+
+.classListHeader-popup_form_header_time_frame {
+    margin-left: 30px;
+}
+
+.classListHeader-popup_form_body {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 0 20px 0 20px;
+}
+
+.classListHeader-popup_form_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+}
+
+#popup_form .title {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.classListHeader-classtime {
+    display: inline-flex;
+}
+
+.classListHeader-time_frame {
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.classListHeader-time_frame span {
+    font-family: unset;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.classListHeader-popup_span{
+    padding-left: 0 !important;
+}
+
+.classListHeader-date {
+    display: inline-flex;
+    width: 103px;
+    height: 27px;
+    border: 1px solid #8b8b8b;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.classListHeader-checkbox_list {
+    margin-left: 17px;
+    display: inline-flex;
+}
+.classListHeader-checkbox_content:first-child {
+    margin-top: 0px;
+}
+.classListHeader-checkbox_content {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.classListHeader-checkbox_content span {
+    margin-left: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.classListHeader-checkbox_content input {
+    width: 12px;
+}
+
+input[type="checkbox"]::before {
+    background-color: #2d3748;
+}
+
+.classListHeader-status {
+    display: inline-flex;
+    margin-left: 40px;
+}
+
+.classListHeader-header-attendee {
+    display: inline-flex;
+    margin-left: 40px;
+}
+
+.classListHeader-FSU {
+    margin-top: 60px;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.classListHeader-FSU_trainer {
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    width: 102px;
+    height: 28px;
+    border: 0.5px solid #8b8b8b !important;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.classListHeader-trainer {
+    display: inline-flex;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.classListHeader-popup_form_footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 20px 20px;
+}
+
+.classListHeader-popup_form_footer_btn {
+    width: 87px;
+    height: 31px;
+    background: #474747;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.classListHeader-popup_form_footer_btn:last-child{
+    background: #2D3748;
+    
+}
+.classListHeader-popup_form_footer_btn {
+    margin-right: 10px;
+}
+.classListHeader-header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.classListHeader-anticon svg {
+    display: inline-block;
+}
+.classListHeader-header-top {
+    padding: 15px 30px;
+    height: 59px;
+    background: #2d3748;
+    border-top: 1px solid #f1f1f1;
+    color: white;
+}
+.classListHeader-header-top-text {
+    height: 29px;
+    font-family: unset;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.2em;
+}
+.classListHeader-header-bottom {
+    padding: 30px 16px;
+}
+.classListHeader-header-tag {
+    height: 30px;
+    background-color: #474747;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 4px 9px 0 9px;
+}
+.classListHeader-popup_header{
+    font-family: unset;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    color: #2D3748;
+    padding-bottom: 8px;
+}
+.classListHeader-popup_form_header_time_frame .classListHeader-popup_header{
+    padding-bottom: 3px;
+}
+.classListHeader-title{
+    color: #2D3748;
+    font-size: 15px;
+    font-weight: 700;
+}

@@ -1,0 +1,10 @@
+@use "../../../styles/" as *;
+
+.layoutAuthen-ui {
+  width: 100%;
+  height: 922px;
+  background: url("../../../assets/images/bgLogin.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}

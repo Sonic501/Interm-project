@@ -1,0 +1,144 @@
+.mdp-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.mdpc-head {
+  width: 330px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+/**
+ * Controls
+ */
+
+.mdpchb-inner:hover {
+  cursor: pointer;
+}
+
+.mdpchbi-right-arrow,
+.mdpchbi-left-arrow {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-left: 3px solid #285d9a;
+  border-bottom: 3px solid #285d9a;
+}
+.mdpchbi-right-arrow,
+.mdpchbi-left-arrow {
+  transform: rotate(45deg);
+}
+.mdpchbi-right-arrow {
+  transform: rotate(225deg);
+}
+
+.mdpch-container {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  width: 100%;
+}
+.mdpchc-year {
+  font-family: sans-serif;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+
+  color: #2d3748;
+}
+.mdpchc-month {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+
+  color: #2d3748;
+}
+
+/**
+ *  Calendar
+ */
+
+.c-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cc-month {
+  height: 30px;
+  width: 100%;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+}
+.cc-head {
+  display: flex;
+}
+.cch-name {
+  width: 14.285%;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #7e818c;
+  font-size: 14px;
+  text-align: center;
+}
+.cc-body {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  /* gap:10px; */
+}
+.c-day-container {
+  width: 14.285%;
+}
+.cdc-day {
+  text-align: center;
+}
+
+.cdc-day p:hover {
+  cursor: pointer;
+  background: #eee;
+  border-radius: 30px;
+  width: 45px;
+}
+
+.cdc-day p {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.c-day-container.disabled {
+  pointer-events: none;
+}
+
+.c-day-container.disabled .cdc-day p {
+  background: #fff !important;
+  color: #ddd !important;
+}
+
+.c-day-container.highlight-green .cdc-day p {
+  background: #2d3748;
+  border-radius: 30px;
+  color: white;
+  width: 48px;
+}
+
+.mdpc-body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
